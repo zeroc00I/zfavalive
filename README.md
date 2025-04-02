@@ -62,7 +62,6 @@ text
   -dw, --show-white-hashes
                         Include null/white icons in output
 ```
-Example:
 
 #### Analyze 50 domains per batch with 15 concurrent threads
 ```bash
