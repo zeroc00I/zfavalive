@@ -1,0 +1,6 @@
+# Core dependencies
+aiohttp>=3.9  # Async HTTP client
+tld>=0.13     # Domain validation
+Pillow>=10.0  # Image processing
+tqdm>=4.66    # Progress bars
+tabulate>=0.9 # Table formatting
