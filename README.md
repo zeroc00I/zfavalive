@@ -7,7 +7,7 @@ A passive reconnaissance tool that leverages Yandex's favicon service to efficie
 
 This tool helps security researchers and threat intelligence analysts quickly:
 - Identify high-value targets by grouping domains with identical favicons
-- Filter out domains that never existed (based on Yandex's historical data)
+- Filter out domains that **PROBABLY** never existed (based on Yandex's historical data)
 - Perform passive reconnaissance without directly contacting target domains
 
 **Why Yandex?** 
