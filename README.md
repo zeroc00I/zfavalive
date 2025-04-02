@@ -44,6 +44,9 @@ pip install -r requirements.txt
 Tested on Ubuntu/Debian, macOS (Homebrew)
 
 ### Usage
+
+![usage.png](usage.png)
+
 ```bash
 ./favicon_analyzer.py -w domains.txt [-b BATCH_SIZE] [-t THREADS] [-o FORMAT]
 Command Line Options:
