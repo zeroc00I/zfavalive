@@ -19,7 +19,7 @@ While several services provide favicon fetching, Yandex uniquely offers a batch 
 
 ## Key Features
 
-- **Batch Processing** - Request up to 2,200 domains in single call (URL length optimized)
+- **Batch Processing** - Request up to 200 domains in single call (URL length optimized)
 - **Smart Caching** - TTL-based cache to avoid reprocessing seen domains
 - **Stealth Analysis** - No direct contact with target infrastructure
 - **Advanced Filtering** - Automatic detection of "blank" favicons (NULL results)
