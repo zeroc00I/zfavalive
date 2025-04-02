@@ -1,5 +1,5 @@
 # Favicon Analyzer 🔍
-![Favicon Analysis](https://via.placeholder.com/800x200.png?text=Favicon+Analysis+Visualization+Example)
+![logo.png](logo.png)
 
 A passive reconnaissance tool that leverages Yandex's favicon service to efficiently analyze historical favicons for domain research. Uses batch requests and image processing to identify valuable targets while maintaining stealth.
 
