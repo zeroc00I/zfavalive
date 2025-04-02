@@ -43,9 +43,11 @@ pip install -r requirements.txt
 - libjpeg/zlib (for Pillow image processing)
 Tested on Ubuntu/Debian, macOS (Homebrew)
 
-### Usage
-
+### Script visualization
+- 4977 domains in 2 seconds:
 ![usage.png](usage.png)
+
+### Usage
 
 ```bash
 ./favicon_analyzer.py -w domains.txt [-b BATCH_SIZE] [-t THREADS] [-o FORMAT]
