@@ -115,5 +115,5 @@ text
   - Domain never existed
   - Site uses default/no favicon
   - Yandex has no historical record
-- ~2-5% false positives possible for active domains without distinctive favicons
+- ~8-22% false positives possible for active domains without distinctive favicons
 - Always verify high-value targets with additional reconnaissance methods
