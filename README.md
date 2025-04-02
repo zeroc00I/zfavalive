@@ -39,10 +39,8 @@ pip install -r requirements.txt
 
 ## Requirements:
 
-Python 3.8+
-
-libjpeg/zlib (for Pillow image processing)
-
+- Python 3.8+
+- libjpeg/zlib (for Pillow image processing)
 Tested on Ubuntu/Debian, macOS (Homebrew)
 ```
 
@@ -88,22 +86,16 @@ text
 
 ### Key Insights
 
-High Count Hashes: Domains sharing identical favicons (potential related infrastructure)
-
-NULL Entries: Domains without historical favicon data (may be unused/misspelled)
-
-Unique Hashes: Likely legitimate/active domains worth deeper investigation
+- High Count Hashes: Domains sharing identical favicons (potential related infrastructure)
+- NULL Entries: Domains without historical favicon data (may be unused/misspelled)
+- Unique Hashes: Likely legitimate/active domains worth deeper investigation
 
 ### Technical Details
-Favicon Processing:
 
-Batch domain requests to Yandex endpoint
-
-Split composite image into individual favicons
-
-Generate SHA-256 hashes (first 8 chars shown)
-
-Detect blank/white favicons (marked as NULL)
+- Batch domain requests to Yandex endpoint
+- Split composite image into individual favicons
+- Generate SHA-256 hashes (first 8 chars shown)
+- Detect blank/white favicons (marked as NULL)
 
 ### Optimizations
 
@@ -116,14 +108,9 @@ Detect blank/white favicons (marked as NULL)
 🎭 Concurrency: Async I/O with configurable worker pool
 
 ### Accuracy Notes
-NULL Results may indicate:
-
-Domain never existed
-
-Site uses default/no favicon
-
-Yandex has no historical record
-
-~2-5% false positives possible for active domains without distinctive favicons
-
-Always verify high-value targets with additional reconnaissance methods
+- NULL Results may indicate:
+  - Domain never existed
+  - Site uses default/no favicon
+  - Yandex has no historical record
+- ~2-5% false positives possible for active domains without distinctive favicons
+- Always verify high-value targets with additional reconnaissance methods
