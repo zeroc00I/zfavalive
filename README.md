@@ -42,7 +42,6 @@ pip install -r requirements.txt
 - Python 3.8+
 - libjpeg/zlib (for Pillow image processing)
 Tested on Ubuntu/Debian, macOS (Homebrew)
-```
 
 ### Usage
 ```bash
@@ -65,7 +64,7 @@ text
 
 #### Analyze 50 domains per batch with 15 concurrent threads
 ```bash
-./favicon_analyzer.py -w targets.txt -b 50 -t 15 -o json > results.json
+./favicon_analyzer.py -w targets.txt -b 50 -t 15
 ```
 
 #### Single domain analysis
