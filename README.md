@@ -70,21 +70,18 @@ text
 #### Analyze 50 domains per batch with 15 concurrent threads
 ```bash
 ./favicon_analyzer.py -w targets.txt -b 50 -t 15
-```
 
-#### Single domain analysis
-```bash
-./favicon_analyzer.py -u https://example.com -o table
-
-Output Interpretation
-Sample Table Output:
-
-text
 | Hash     | Count | Domains                                      |
 |----------|-------|----------------------------------------------|
 | a1b2c3d4 | 12    | bank.com, secure-pay.net, +10 more...        |
 | NULL     | 8     | expired-domain.net, placeholder-site.org... |
 | e5f6g7h8 | 3     | dev-environment.com, test-server.local      |
+```
+
+
+#### Single domain analysis
+```bash
+./favicon_analyzer.py -u https://example.com
 ```
 
 ### Key Insights
