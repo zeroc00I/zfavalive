@@ -3,6 +3,12 @@
 
 A passive reconnaissance tool that leverages Yandex's favicon service to efficiently analyze historical favicons for domain research. Uses batch requests and image processing to identify valuable targets while maintaining stealth.
 
+## Demo
+
+
+https://github.com/user-attachments/assets/923cbe8f-9cd2-403d-9b34-5e83ed05adb9
+
+
 ## Overview
 
 This tool helps security researchers and threat intelligence analysts quickly:
